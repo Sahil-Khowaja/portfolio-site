@@ -5,8 +5,8 @@ export default function Testimonial() {
     <section className="testimonial--section" id="testimonial">
       <div className="portfolio--container-box">
         <div className="portfolio--container">
-          <p className="sub--title">Clients Feedback</p>
-          <h2 className="sections--heading">Customer Feedback</h2>
+          {/* <p className="sub--title">Clients Feedback</p> */}
+          <h2 className="sections--heading">Clients Feedback</h2>
         </div>
       </div>
       <div className="portfolio--section--container">
@@ -30,14 +30,22 @@ export default function Testimonial() {
             </div>
             <p className="text-md">{item.description}</p>
             <div className="testimonial--section--card--author--detail">
-              <img src={item.src} alt="Avatar" />
-              <div>
-                <p className="text-md testimonial--author--name">
-                  {item.author_name}
+              <div className="author-info">
+                <p className="testimonial--company--name">
+                  {item.company_name} -
                 </p>
-                <p className="text-md testimonial--author--designation">
-                  {item.author_designation}
-                </p>
+                <img
+                  className="flag"
+                  src={item.flag}
+                  alt={`${item.author_name} Country Flag`}
+                />
+              </div>
+              <div className="company-logo">
+                <img
+                  className="logo"
+                  src={item.company_logo}
+                  alt={`${item.author_name} Company Logo`}
+                />
               </div>
             </div>
           </div>

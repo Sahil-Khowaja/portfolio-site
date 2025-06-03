@@ -1,77 +1,86 @@
 {
-  "skills": [
-    {
-      "id": "1",
-      "src": "./img/product-chain-1.png",
-      "title": "Front-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
-    },
-    {
-      "id": "2",
-      "src": "./img/tag-1.png",
-      "title": "Back-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
-    },
-    {
-      "id": "3",
-      "src": "./img/feather-pen-2.png",
-      "title": "UI & UX Design",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
-    },
-    {
-      "id": "4",
-      "src": "./img/feather-pen-1.png",
-      "title": "Webflow Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
-    }
-  ],
+  "skills": {
+    "Frontend Technologies": [
+      "React.js",
+      "Angular",
+      "Next.js",
+      "Redux",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "MUI",
+      "Bootstrap",
+      "JavaScript",
+      "TypeScript"
+    ],
+    "Backend Technologies": ["Node.js", "NestJS", "AdonisJS", "Express.js"],
+    "Databases & ORMs": [
+      "MongoDB",
+      "MySQL",
+      "PostgreSQL",
+      "Firebase (Realtime DB, Firestore)",
+      "Sequelize",
+      "Prisma"
+    ],
+    "Tools & Platforms": [
+      "Git & GitHub",
+      "Docker",
+      "RESTful APIs",
+      "GraphQL",
+      "AWS",
+      "Heroku",
+      "Vercel",
+      "CI/CD Workflows"
+    ]
+  },
   "portfolio": [
     {
       "id": "1",
-      "src": "./img/placeholder-image.png",
-      "title": "Ahuse",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "src": "./img/mockup.png",
+      "title": "Prime Lane Motors",
+      "description": "Created the Prime Lane Motors website using WordPress, delivering a user-friendly platform to showcase pre-owned vehicles, provide financing details, and facilitate customer inquiries with seamless navigation and responsive design.",
+      "link": "https://primelanemotors.com/"
     },
     {
       "id": "2",
-      "src": "./img/placeholder-image-1.png",
-      "title": "App Dashboard",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "src": "./img/mockup2.png",
+      "title": "Marina",
+      "description": "Created the Marina Group website using Next.js and Tailwind CSS, delivering a modern, responsive frontend platform to showcase real estate opportunities and attract potential investors through intuitive UI and fast performance.",
+      "link": "https://marina-project.expinsoft.com/"
     },
     {
       "id": "3",
-      "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "src": "./img/mockup3.png",
+      "title": "AK FinTax Advisors",
+      "description": "Created the AK FinTax Advisors website using WordPress, and developed a secure client portal with React and MUI on the frontend, and Node.js, Koa, and MySQL on the backend (client portal available upon request).",
+      "link": "https://www.akfintaxadvisors.com/"
     }
   ],
+
   "testimonial": [
     {
       "id": "1",
       "count": "5",
-      "src": "./img/avatar-image.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Dianne Russel",
-      "author_designation": "Starbucks"
+      "description": "Very impressed with the eCommerce platform Ali Sher built for our mobile accessories business. Everything works flawlessly — from product listings to secure payments. They understood our needs from day one and delivered beyond expectations.",
+      "company_name": "Premier Garde",
+      "company_logo": "./img/premier-garde.png",
+      "flag": "./img/canada.svg"
     },
     {
       "id": "2",
       "count": "5",
-      "src": "./img/avatar-image-1.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kristin Watson",
-      "author_designation": "Louis Vuitton"
+      "description": "Extremely satisfied with the dealership site Ali Sher developed for Prime Lane Motors. The platform is seamless — from showcasing inventory to handling customer leads. He understood our vision clearly and delivered a high-quality solution that stands out.",
+      "company_name": "Prime Lane Motors",
+      "company_logo": "./img/primelane.png",
+      "flag": "./img/canada.svg"
     },
     {
       "id": "3",
       "count": "5",
-      "src": "./img/avatar-image-2.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kathryn Murphy",
-      "author_designation": "McDonald's"
+      "description": "Thrilled with the website and secure client portal Ali Sher developed for AK FinTax Advisors. The site presents our services clearly, and the portal efficiently manages sensitive client data with confidence. A seamless and dependable solution throughout.",
+      "company_name": "AK FinTax Advisors",
+      "company_logo": "./img/akfintax.png",
+      "flag": "./img/usa.svg"
     }
   ]
 }
